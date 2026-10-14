@@ -1,0 +1,21 @@
+# Environments
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Data & model artifacts
+# Trained model artifacts (lstm_model.keras, scaler.joblib, metrics.json) are
+# intentionally committed so the app works out-of-the-box without retraining.
+data/_uploaded.csv
+outputs/plots/*
+!outputs/plots/README.md
+*.log
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / Editor
+.DS_Store
+.vscode/
